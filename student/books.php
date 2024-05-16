@@ -104,6 +104,7 @@
   <div class="h"> <a href="request.php">Book Request</a></div>
   <div class="h"> <a href="issue_info.php">Issue Information</a></div>
   <div class="h"><a href="expired.php">Expired List</a></div>
+  <div class="h"><a href="add_to_wishlist">Wishlist</a></div>
 </div>
 
 <div id="main">
@@ -130,7 +131,7 @@ function closeNav() {
 		<form class="navbar-form" method="post" name="form1">
 			
 				<input class="form-control" type="text" name="search" placeholder="search books.." required="">
-				<button style="background-color: #6db6b9e6;" type="submit" name="submit" class="btn btn-default">
+				<button style="background-color: #d34248;" type="submit" name="submit" class="btn btn-default">
 					<span class="glyphicon glyphicon-search"></span>
 				</button>
 		</form>
@@ -140,7 +141,7 @@ function closeNav() {
 		<form class="navbar-form" method="post" name="form1">
 			
 				<input class="form-control" type="text" name="bid" placeholder="Enter Book ID" required="">
-				<button style="background-color: #6db6b9e6;" type="submit" name="submit1" class="btn btn-default">Request
+				<button style="background-color: #d34248;" type="submit" name="submit1" class="btn btn-default">Request
 				</button>
 		</form>
 	</div>
@@ -160,7 +161,7 @@ function closeNav() {
 			else
 			{
 		echo "<table class='table table-bordered table-hover' >";
-			echo "<tr style='background-color: #6db6b9e6;'>";
+			echo "<tr style='background-color: #d34248;'>";
 				
 				echo "<th>"; echo "ID";	echo "</th>";
 				echo "<th>"; echo "Book-Name";  echo "</th>";
@@ -187,13 +188,13 @@ function closeNav() {
 		echo "</table>";
 			}
 		}
-			//if button is not pressed.
+			// button is not pressed.
 		else
 		{
 			$res=mysqli_query($db,"SELECT * FROM `books` ORDER BY `books`.`name` ASC;");
 
 		echo "<table class='table table-bordered table-hover' >";
-			echo "<tr style='background-color: #6db6b9e6;'>";
+			echo "<tr style='background-color: #d34248;'>";
 				//Table header
 				echo "<th>"; echo "ID";	echo "</th>";
 				echo "<th>"; echo "Book-Name";  echo "</th>";
@@ -242,6 +243,7 @@ function closeNav() {
 		}
 
 	?>
+
 </div>
 </body>
 </html>

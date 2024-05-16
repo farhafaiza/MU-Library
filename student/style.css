@@ -112,7 +112,7 @@ header
 }
 section
 {
-	height: 901px;
+	height: 550px;
 	width: 1361px;
 	background-color: dimgrey;
 }
@@ -148,13 +148,13 @@ li a
 
 section .sec_img
 {
-	height: 100%;
+	height: 570px;
 	margin-top: 0px;
 	background-image: url("images/H.jpg");
 }
 .box
 {
-	height: 450px;
+	height: 300px;
 	width: 450px;
 	background-color: #13153f;
 	margin: 70px auto;

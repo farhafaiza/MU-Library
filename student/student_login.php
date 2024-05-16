@@ -48,8 +48,8 @@
       }
       else
       {
-        /*$_SESSION['login_user'] = $_POST['username'];
-        $_SESSION['pic']= $row['pic'];*/
+        $_SESSION['login_user'] = $_POST['username'];
+        //$_SESSION['pic']= $row['pic'];
 
         ?>
           <script type="text/javascript">
