@@ -31,6 +31,9 @@
 	      <?php
             if(isset($_SESSION['login_user']))
             {?>
+
+            	<ul class="nav navbar-nav">
+                  <li><a href="profile.php">PROFILE</a></li>
             	<ul class="nav navbar-nav">
 
             		<li><a href="student.php">

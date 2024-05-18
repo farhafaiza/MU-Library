@@ -31,12 +31,20 @@
 	      <?php
             if(isset($_SESSION['login_user']))
             {?>
+
+            	<ul class="nav navbar-nav">
+                  <li><a href="profile.php">PROFILE</a></li>
+                  <!--<li><a href="fine.php">FINES</a></li>-->
+
+                </ul>
             	
             	<ul class="nav navbar-nav navbar-right">
             		<li><a href="">
             			<div style="color:grey; font-style: italic; font-size: 20px;">
 		            		<?php
-		            			echo "Welcome ".$_SESSION['login_user'];
+		            			echo "<img class='img-circle profile_img' height=30 width=30 src='images/".$_SESSION['pic']."'>";
+
+                        		echo " ".$_SESSION['login_user'];
 		            		?>
 		            	</div>
             		</a></li>
