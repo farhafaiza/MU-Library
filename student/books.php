@@ -75,7 +75,7 @@
 	color:white;
 	width: 300px;
 	height: 50px;
-	background-color: #00544c;
+	background-color: #b73439;
 }
 
 	</style>
@@ -93,7 +93,6 @@
 
                 { 	echo "<img class='img-circle profile_img' height=120 width=120 src='images/".$_SESSION['pic']."'>";
                     echo "</br></br>";
-
                     echo "Welcome ".$_SESSION['login_user']; 
                 }
                 ?>
@@ -104,7 +103,7 @@
   <div class="h"> <a href="request.php">Book Request</a></div>
   <div class="h"> <a href="issue_info.php">Issue Information</a></div>
   <div class="h"><a href="expired.php">Expired List</a></div>
-  <div class="h"><a href="add_to_wishlist">Wishlist</a></div>
+  <div class="h"><a href="add_to_wishlist.php">Wishlist</a></div>
 </div>
 
 <div id="main">
@@ -142,6 +141,15 @@ function closeNav() {
 			
 				<input class="form-control" type="text" name="bid" placeholder="Enter Book ID" required="">
 				<button style="background-color: #d34248;" type="submit" name="submit1" class="btn btn-default">Request
+				</button>
+		</form>
+	</div>
+	<!--_________________Wishlist____________________-->
+	<div class="srch">
+		<form class="navbar-form" method="post" name="form1">
+			
+				<input class="form-control" type="text" name="bid" placeholder="Enter Book ID" required="">
+				<button style="background-color: #d34248;" type="submit" name="submit2" class="btn btn-default">Add to wishlist
 				</button>
 		</form>
 	</div>

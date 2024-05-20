@@ -75,7 +75,7 @@
 	color:white;
 	width: 300px;
 	height: 50px;
-	background-color: #00544c;
+	background-color: #b73439;
 }
 
 	</style>
@@ -100,11 +100,10 @@
             </div><br><br>
 
  
-  <div class="h"> <a href="books.php">Books</a></div>
+  <div class="h"> <a href="add.php">Add Books</a> </div> 
   <div class="h"> <a href="request.php">Book Request</a></div>
   <div class="h"> <a href="issue_info.php">Issue Information</a></div>
   <div class="h"><a href="expired.php">Expired List</a></div>
-  <div class="h"><a href="add_to_wishlist">Wishlist</a></div>
 </div>
 
 <div id="main">
