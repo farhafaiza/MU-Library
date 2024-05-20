@@ -17,10 +17,10 @@
 
 		}
 		
-		body {
-  font-family: "Lato", sans-serif;
-  transition: background-color .5s;
-}
+		body{
+			font-family: "Lato", sans-serif;
+  		transition: background-color .5s;
+		}
 
 .sidenav {
   height: 100%;

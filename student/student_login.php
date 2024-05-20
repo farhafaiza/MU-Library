@@ -61,49 +61,7 @@
 
   ?>
 
-<!--  <nav class="navbar navbar-inverse">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <a class="navbar-brand active">MU Library</a>
-      </div>
-      <ul class="nav navbar-nav">
-        <li><a href="index.php">HOME</a></li>
-        <li><a href="books.php">BOOKS</a></li>
-        <li><a href="logout.php">LOGOUT</a></li>
-        <li><a href="feedback.php">FEEDBACK</a></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="student_login.php"><span class="glyphicon glyphicon-log-in"> LOGIN</span></a></li>
-        <li><a href="student_login.php"><span class="glyphicon glyphicon-log-out"> LOGOUT</span></a></li>
-        <li><a href="registration.php"><span class="glyphicon glyphicon-user"> SIGNUP</span></a></li>
-      </ul>
-    </div>
-    
-  </nav>-->
-  <!--<header style="height: 102px;">
-    <div class="logo">
-      <img src="images/l.png">
-    </div>
 
-        <nav>
-          <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="books.php">BOOKS</a></li>
-            <li><a href="logout.php">LOGOUT</a></li>
-            <li><a href="feedback.php">FEEDBACK</a></li>
-          </ul>
-        </nav>
-
-            <nav>
-              <ul>
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="books.php">BOOKS</a></li>
-                <li><a href="student_login.html">LOGIN</a></li>
-                <li><a href="registration.html">SIGN-UP</a></li>
-                <li><a href="feedback.php">FEEDBACK</a></li>
-              </ul>
-            </nav>
-  </header>-->
   <section>
     <div class="log_img">
       <br>
@@ -121,7 +79,7 @@
         <p style="color: white; padding-left: 15px;">
           <br><br>
           <a style="color:yellow; text-decoration: none;" href="update_password.php">Forgot password?</a> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  
-          New to this website?<a style="color: yellow; text-decoration: none;" href="registration.php">Sign Up here</a>
+          New to this website?<a style="color: yellow; text-decoration: none;" href="registration.php">&nbspSign Up here</a>
         </p>
       </form>
   </section>
