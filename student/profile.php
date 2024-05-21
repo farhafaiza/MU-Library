@@ -89,15 +89,6 @@
 
 	 				echo "<tr>";
 	 					echo "<td>";
-	 						echo "<b> Password: </b>";
-	 					echo "</td>";
-	 					echo "<td>";
-	 						echo $row['password'];
-	 					echo "</td>";
-	 				echo "</tr>";
-
-	 				echo "<tr>";
-	 					echo "<td>";
 	 						echo "<b> Email: </b>";	
 	 					echo "</td>";
 	 					echo "<td>";

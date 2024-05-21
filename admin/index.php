@@ -77,34 +77,7 @@
 				<h1 style="text-align: center; font-size: 50px; font-family: calibri;">Welcome to MU library</h1><br>
 			</div>
 
-<!--			<div class="w3-content w3-section" style="width: 500px">
-				<img class="mySlides w3-animate-left" src="images/2.jpg" style="width: 100%">
-				<img class="mySlides w3-animate-right" src="images/21.jpg" style="width: 100%">
-				<img class="mySlides w3-animate-left" src="images/H.jpg" style="width: 100%">
-				<img class="mySlides w3-animate-right" src="images/1.jpg" style="width: 100%">
-			</div>
 
-			<script type="text/javascript">
-				var a=0;
-				carousel();
-
-				function carousel()
-				{
-					var i;
-					var x= document.getElementsByClassName("mySlides");
-
-					for(i=0; i<x.length; i++)
-					{
-						x[i].style.display="none";
-					}
-
-					a++;
-					if(a>x.length) {a=1}
-						x[a-1].style.display = "block";
-						setTimeout(carousel, 2000);
-
-				}
-			</script>-->
 		</div>
 		</section>
 		

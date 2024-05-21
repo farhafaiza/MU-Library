@@ -115,7 +115,6 @@ background: radial-gradient(circle, rgba(49,71,186,1) 0%, rgba(173,29,59,1) 100%
             </div><br><br>
 
  <div class="h"> <a href="add.php">Add Books</a> </div> 
-  <div class="h"> <a href="delete.php">Delete Books</a></div>
   <div class="h"> <a href="request.php">Book Request</a></div>
   <div class="h"> <a href="issue_info.php">Issue Information</a></div>
 </div>
