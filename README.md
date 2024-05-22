@@ -12,18 +12,16 @@
 ## Features
 Only registered users can get every facility of this website.<br/>
 ->They can log in to their account and see their personal information and modify them.<br/>
-->They can search for a book by the name or search it in a particular department.<br/>
+->They can search for a book by the name<br/>
 ->They can easily order a book.<br/>
 ->After the admin approve it they can see the issue and return date beside the book name.<br/>
-->An automatic timer will set up on the user’s id. It’ll show how much time left until the return date.<br/>
-->If they need more time they can send a message to the admin.<br/>
+->If they need more time they can send a request to the admin.<br/>
 ->Also, there is a public comment section where registered users can comment on their suggestions and can ask questions.<br/>
 <br/>
 On the other hand admin can-<br/>
 ->see which student is online right now.<br/>
 ->see all the student information.<br/>
-->add new books & delete a book from the list.<br/>
-->send a notification to students before their return date and they can also communicate through message.<br/>
+->add new books a book from the list.<br/>
 ->reply in the comment box.<br/>
 
 ## Usage
