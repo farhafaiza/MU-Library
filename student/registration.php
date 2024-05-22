@@ -17,58 +17,22 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
 <style type="text/css">
-  section{
+  .reg-section {
+    height: 100%;
+    width: 100%;
+    background-color: dimgrey;
     margin-top: -20px;
-  }
+},
+.reg_img {
+   margin-bottom: 20px;
+}
+  
 </style>
 </head>
 <body>
 
-<!--  <nav class="navbar navbar-inverse">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <a class="navbar-brand active">MU Library</a>
-      </div>
-      <ul class="nav navbar-nav">
-        <li><a href="index.php">HOME</a></li>
-        <li><a href="books.php">BOOKS</a></li>
-        <li><a href="logout.php">LOGOUT</a></li>
-        <li><a href="feedback.php">FEEDBACK</a></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="student_login.php"><span class="glyphicon glyphicon-log-in"> LOGIN</span></a></li>
-        <li><a href="student_login.php"><span class="glyphicon glyphicon-log-out"> LOGOUT</span></a></li>
-        <li><a href="registration.php"><span class="glyphicon glyphicon-user"> SIGNUP</span></a></li>
-      </ul>
-    </div>
-    
-  </nav>-->
- <!-- <header style="height: 101px;">
-    <div class="logo">
-      <img src="images/l.png">
-    </div>
 
-        <nav>
-          <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="books.php">BOOKS</a></li>
-            <li><a href="logout.php">LOGOUT</a></li>
-            <li><a href="feedback.php">FEEDBACK</a></li>
-          </ul>
-        </nav>
- 
-            <nav>
-              <ul>
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="books.php">BOOKS</a></li>
-                <li><a href="student_login.html">LOGIN</a></li>
-                <li><a href="registration.html">SIGN-UP</a></li>
-                <li><a href="feedback.php">FEEDBACK</a></li>
-              </ul>
-            </nav>
-
-  </header>-->
-  <section>
+  <section class="reg-section">
     <div class="reg_img">
       <br>
     <div class="box2">
@@ -86,7 +50,7 @@
             <p>ID:</p>
             <input class="form-control" type="text" name="roll" placeholder="ID" required=""><br>
             <p>Email:</p>
-            <input class="form-control" type="text" name="email" placeholder="Email" required=""><br>
+            <input class="form-control" type="email" name="email" placeholder="Email" required=""><br>
             <p>Phone number:</p>
             <input class="form-control" type="text" name="contact" placeholder="Phone No" required=""><br><br>
 

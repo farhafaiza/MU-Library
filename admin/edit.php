@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>edit profile</title>
+	<title>Edit profile</title>
 	<style type="text/css">
 		.form-control
 		{

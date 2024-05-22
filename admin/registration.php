@@ -17,15 +17,22 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
 <style type="text/css">
-  section{
+  .reg-section {
+    height: 100%;
+    width: 100%;
+    background-color: dimgrey;
     margin-top: -20px;
-  }
+},
+.reg_img {
+   margin-bottom: 20px;
+}
+  
 </style>
 </head>
 <body>
 
 
-  <section>
+  <section class="reg-section">
     <div class="reg_img">
       <br>
     <div class="box2">

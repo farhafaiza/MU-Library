@@ -184,7 +184,10 @@ th,td
        if($d > $row['return'])
        {
         $c=$c+1;
-        $var}
+        $var='<p style="color:yellow; background-color:red;"> EXPIRED</p>';
+        mysqli_query($db,"UPDATE issue_book SET approve='Expired' where `return`='$row[return]' and approve='Yes' limit $c;");
+        echo $d."</br>";
+      }
         echo "<tr>";
           echo "<td>"; echo $row['username']; echo "</td>";
           echo "<td>"; echo $row['roll']; echo "</td>";

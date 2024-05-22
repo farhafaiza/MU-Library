@@ -103,7 +103,6 @@
   <div class="h"> <a href="request.php">Book Request</a></div>
   <div class="h"> <a href="issue_info.php">Issue Information</a></div>
   <div class="h"><a href="expired.php">Expired List</a></div>
-  <div class="h"><a href="add_to_wishlist.php">Wishlist</a></div>
 </div>
 
 <div id="main">
@@ -144,16 +143,6 @@ function closeNav() {
 				</button>
 		</form>
 	</div>
-	<!--_________________Wishlist____________________-->
-	<div class="srch">
-		<form class="navbar-form" method="post" name="form1">
-			
-				<input class="form-control" type="text" name="bid" placeholder="Enter Book ID" required="">
-				<button style="background-color: #d34248;" type="submit" name="submit2" class="btn btn-default">Add to wishlist
-				</button>
-		</form>
-	</div>
-
 
 	<h2>List Of Books</h2>
 	<?php
@@ -251,6 +240,7 @@ function closeNav() {
 		}
 
 	?>
+
 
 </div>
 </body>

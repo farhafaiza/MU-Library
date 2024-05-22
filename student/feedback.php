@@ -59,7 +59,7 @@
     <?php
       if(isset($_POST['submit']))
       {
-        $sql="INSERT INTO `comments` VALUES('','$_POST[comment]');";
+        $sql="INSERT INTO `comments` VALUES('','$_SESSION[login_user]','$_POST[comment]');";
         if(mysqli_query($db,$sql))
         {
           $q="SELECT * FROM `comments` ORDER BY `comments`.`id` DESC";
@@ -70,7 +70,7 @@
           {
 
             echo "<tr>";
-              //echo "<td>"; echo $row['username']; echo "</td>";
+              echo "<td>"; echo $row['username']; echo "</td>";
               echo "<td>"; echo $row['comment']; echo "</td>";
             echo "</tr>";
           }
@@ -88,7 +88,7 @@
           while ($row=mysqli_fetch_assoc($res)) 
           {
             echo "<tr>";
-              //echo "<td>"; echo $row['username']; echo "</td>";
+              echo "<td>"; echo $row['username']; echo "</td>";
               echo "<td>"; echo $row['comment']; echo "</td>";
             echo "</tr>";
           }

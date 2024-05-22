@@ -191,6 +191,11 @@ form .login
 {
 	margin: auto 50px;
 }
+
+.form-control {
+	color: #555 !important;
+}
+
 input
 {
 	height: 25px;

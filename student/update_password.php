@@ -40,7 +40,7 @@
 			<p>Username:</p>
 			<input type="text" name="username" class="form-control" placeholder="Username" required=""><br>
 			<p>Email:</p>
-			<input type="text" name="email" class="form-control" placeholder="Email" required=""><br>
+			<input name="email" class="form-control" placeholder="Email" required type="email"><br>
 			<p>New password:</p>
 			<input type="text" name="password" class="form-control" placeholder="New Password" required=""><br>
 			<button class="btn btn-default" type="submit" name="submit" >Update</button>
