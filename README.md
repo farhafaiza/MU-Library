@@ -1,7 +1,7 @@
 <p align="center">
   <h3 align="center">MU-Library</h3>
   <p align="center">
-  The main objective of MU-Library is developing a computerized system to maintain all the daily work of the library. It has two sides –
+  The main objective of MU-Library is developing a computerized system to maintain all the daily work of the library. It has two sides –<br/>
  ->User side (student / teacher).<br/>
  ->Admin side.
     <br/>
