@@ -199,7 +199,7 @@ th,td
           $fine= $day*10;
 
           $x= date("Y-m-d"); 
-          mysqli_query($db,"INSERT INTO `fine` VALUES ('$_POST[username]', '$_POST[bid]', '$x', '$day', '$fine','not paid') ;");
+          //mysqli_query($db,"INSERT INTO `fine` VALUES ('$_POST[username]', '$_POST[bid]', '$x', '$day', '$fine','not paid') ;");
 
 
           $var1='<p style="color:yellow; background-color:green;">RETURNED</p>';
