@@ -24,8 +24,6 @@
     }
     
     body {
-      background-image: url("images/aa.jpg");
-      background-repeat: no-repeat;
     font-family: "Lato", sans-serif;
     transition: background-color .5s;
 }
@@ -152,7 +150,7 @@ th,td
     document.body.style.backgroundColor = "white";
   }
   </script>
-  <div class="container">
+  <div class="container"> 
     
     <?php
       if(isset($_SESSION['login_user']))
@@ -163,7 +161,7 @@ th,td
       <form method="post" action="">
           <button name="submit2" type="submit" class="btn btn-default" style="background-color: #06861a; color: yellow;">RETURNED</button> 
                       &nbsp&nbsp
-          <button name="submit3" type="submit" class="btn btn-default" style="background-color: red; color: yellow;">EXPIRED</button>
+          <button name="submit3" type="submit" class="btn btn-default" style="background-color: red; color: yellow;">EXPIRED</button>  <!--2ta button add korsi-->
       </form>
       </div>
       <div style="float: right;padding-top: 10px;">
@@ -176,6 +174,8 @@ th,td
             $var=$var+$r['fine'];
           }
           $var2=$var+$_SESSION['fine'];
+
+          mysqli_query($db,"UPDATE `fine` SET fine = '$var2' WHERE username = '$_SESSION[login_user]';");
 
          ?>
         <h3>Your fine is: 
@@ -195,7 +195,7 @@ th,td
         if(isset($_POST['submit2']))
         {
           
-        $sql="SELECT student.username,roll,books.bid,name,authors,edition,approve,issue,issue_book.return FROM student inner join issue_book ON student.username=issue_book.username inner join books ON issue_book.bid=books.bid WHERE issue_book.approve ='$ret' and issue_book.username ='$_SESSION[login_user]'  ORDER BY `issue_book`.`return` DESC";
+        $sql="SELECT student.username,roll,books.bid,name,authors,edition,approve,issue,issue_book.return FROM student inner join issue_book ON student.username=issue_book.username inner join books ON issue_book.bid=books.bid WHERE issue_book.approve ='$ret;' and issue_book.username ='$_SESSION[login_user]'  ORDER BY `issue_book`.`return` DESC";
         $res=mysqli_query($db,$sql);
 
         }
