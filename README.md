@@ -24,6 +24,10 @@ On the other hand admin can-<br/>
 ->add new books a book from the list.<br/>
 ->reply in the comment box.<br/>
 
+## ER Diagram:
+![image](https://github.com/farhafaiza/MU-Library/assets/87140028/7f4d754f-febb-4291-b6d4-2f6ba6a05a1f)
+
+
 ## Usage
 There is a page where all the information of the student is available who has borrowed a book with the return date.
 
